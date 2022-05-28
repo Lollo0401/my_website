@@ -1,0 +1,34 @@
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px !important;
+}
+
+.mainGrid {
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 740px) {
+    .mainGrid {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: space-between;
+    }
+
+    .cardContainer {
+        max-width: 550px !important;
+    }
+
+    .cardMain {
+        margin-top: 45px;
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    .cardMain {
+        margin: 45px 100px 80px;
+    }
+}

@@ -1,0 +1,14 @@
+.cardImage {
+    width: 151px !important;
+}
+
+.cardEff:hover {
+    background-color: #262728;
+    transform: translate(0, -10px) !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .cardImage {
+        width: 150px !important;
+    }
+}
